@@ -40,39 +40,81 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
-```
-write your answer here...
-```
+The purpose of the survey is to understand the reason behind the high turnover rate in some positions of the large tech company. We also want to know what changes are required to improve employee satisfication.
 
 Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
-```
+Target population: current and previous employees in entry-level and lower-level positions in the company during the high-turnover period
+Sampling frame: database for all current employees in these positions
+Sampling units: each individual employee in the database
+Observational units: all employees that are analyzed
+Strategy: stratified random sampling - select from all departments and ensure each employee has the same probability to be chosen to ensure representations of the whole population
 
 Your 5-10 question survey:
-```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
-```
+1. How satisfied are you with your overall experience working at the company?
+a. Very satisfied
+b. Satisfied
+c. Neutral
+d. Dissatisfied
+e. Very dissatisfied
+
+2. How manageable is your current workload?
+a. Very manageable
+b. Manageable
+c. Neutral
+d. Difficult to manage
+e. Very difficult to manage
+
+3. Do you feel respected and valued in your workplace?
+a. Strongly agree
+b. Agree
+c. Neutral
+d. Disagree
+e. Strongly disagree
+
+4. Have you considered leaving the company within the past XX months?
+a. Yes
+b. No
+
+5. If you could change one thing about your work experience here, what would it be? (short answer)
 
 ## Part B - Survey Evaluation:
 
 Identify and describe survey features:
+1. Sample type: Stratified two-phase design. The first phase corresponds to the Census itself and the sample of households selected for the long-form questionnaire (about one household out of four, systematically selected across Canada). The second phase corresponds to the sample of persons selected for the survey
 
-```
-write your answer here
-```
+2. Sample size: 80,000 individuals (60,000 regular sample, 20,000 oversample)
+
+3. Target population: The target population for the 2023 SGVP is all persons 15 years of age and older in Canada, excluding residents of the Yukon, Northwest Territories, and Nunavut, full-time residents of institutions, and residents of First Nations reserves
+
+4. Sampling frame: 2021 long-form Census of Population
+
+5. Survey mode(s): An electronic questionnaire (EQ) or through CATI (computer assisted telephone interviewing)
+
+6. Timeline: 2023-09-15 to 2024-03-30
+
+7. Response rate: 40.9% (42.2% for the regular sample and 37.1% for the oversample)
+
+8. Weights: The number of persons represented by a given person in the sample is the weight or weighting factor. To adjust for the 'rejecting' of a proportion of respondents that are not volunteers, the person weight for respondents that are not 'rejected' and are not volunteers is multiplied by a factor. Finally, the weights were adjusted so that the weighted income distribution of 2023 SGVP matched the 2022 Canadian Income Survey (CIS) distribution by province
+
+9. Data processing: Data collection and initial capture - Data validation and cleaning - Imputation - Coding of open-ended responses
+
+10. Cleaning, imputation, etc: 
+Imputation was carried out in 4 blocks:
+(1) imputation of personal income and family income;
+(2) imputation of variables related to donations;
+(3) imputation of the formal volunteering variables; and
+(4) imputation of the informal volunteering variables.
+
+11. Sources of error: non-sampling error and coverage error
+
+12. Limitations, known biases, etc
+To the extent that the excluded population differs from the rest of the target population, the results may be biased. In general, since these exclusions are small, one would expect the biases introduced to be small
+There might also be non-response bias, and the main method used to reduce non-response bias involved a series of adjustments to the survey weights to account for nonresponse as much as possible. Information was extracted from the frame and used to model and adjust for non-response
+
+13. Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=1526823 
 
 ## Rubric
 
@@ -93,9 +135,9 @@ write your answer here
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-2`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [Y] Create a branch called `assignment-2`.
+- [Y] Ensure that the repository is public.
+- [Y] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [Y] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via the help channel in Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
